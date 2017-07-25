@@ -34,6 +34,6 @@ fi
 
 #Pull down the system
 sudo docker-compose $COMPOSE_ARGS stop
-sudo docker-compose $COMPOSE_ARGS rm --force -v
+#sudo docker-compose $COMPOSE_ARGS rm --force -v
 
 return $ERR
