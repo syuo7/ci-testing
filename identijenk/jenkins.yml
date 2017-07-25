@@ -1,7 +1,7 @@
 version: "2"
 services:
   identidock:
-  network_mode: bridge
+    network_mode: bridge
     build:
       context: ../identidock
     expose:
