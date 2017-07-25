@@ -1,7 +1,8 @@
 version: "2"
 services:
   identidock:
-    build: ../identidock
+    build:
+      context: ../identidock
     expose:
       - "9090"
     environment:
