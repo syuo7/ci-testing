@@ -1,6 +1,7 @@
 version: "2"
 services:
   identidock:
+  network_mode: bridge
     build:
       context: ../identidock
     expose:
@@ -13,6 +14,8 @@ services:
 
   dnmonster:
     image: amouat/dnmonster:1.0
+    network_mode: bridge
 
   redis:
     image: redis:3.0
+    network_mode: bridge
