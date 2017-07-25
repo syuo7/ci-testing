@@ -1,5 +1,5 @@
 #Default compose args
-COMPOSE_ARGS=" -f jenkins.yml -p jenkins "
+COMPOSE_ARGS=" -f identijenk/jenkins.yml -p jenkins "
 
 #Make sure old containers are gone
 sudo docker-compose $COMPOSE_ARGS stop
