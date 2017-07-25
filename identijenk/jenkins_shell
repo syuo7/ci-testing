@@ -23,7 +23,7 @@ if [ $ERR -eq 0 ]; then
     sudo docker tag jenkins_identidock amouat/identidock:$HASH
     sudo docker tag jenkins_identidock amouat/identidock:newest
     echo "Pushing"
-    sudo docker login -e joe@bloggs.com -u jbloggs -p jbloggs123
+    sudo docker login -u syuo7 -pTaelix@358
     sudo docker push amouat/identidock:$HASH
     sudo docker push amouat/identidock:newest
   else
